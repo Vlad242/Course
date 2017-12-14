@@ -10,3 +10,5 @@ C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_cours
 C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Login.LogIn.resources
 C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Login.Register.resources
 C:\Users\asus\source\repos\Atelier_course\Atelier_course\bin\Debug\MySql.Data.dll
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.User.UserRoom.resources
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Worker.WorkerRoom.resources
