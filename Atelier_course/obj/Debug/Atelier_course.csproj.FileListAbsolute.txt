@@ -1,0 +1,12 @@
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\bin\Debug\Atelier_course.exe.config
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\bin\Debug\Atelier_course.exe
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\bin\Debug\Atelier_course.pdb
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Properties.Resources.resources
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.csproj.GenerateResource.Cache
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.exe
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.pdb
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.csprojResolveAssemblyReference.cache
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Login.LogIn.resources
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Login.Register.resources
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\bin\Debug\MySql.Data.dll
