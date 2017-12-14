@@ -213,5 +213,21 @@ namespace Atelier_course.Login
             }
             return hashString;
         }
+
+        private void LogIn_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            try
+            {
+                conn.Close();
+                this.Dispose();
+                Application.ExitThread();
+                Application.Exit();
+            }
+            catch (Exception)
+            {
+                Application.Exit();
+            }
+
+        }
     }
 }

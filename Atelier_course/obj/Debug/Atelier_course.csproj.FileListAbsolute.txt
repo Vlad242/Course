@@ -15,3 +15,6 @@ C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_cours
 C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.User.NewOrder.resources
 C:\Users\asus\source\repos\Atelier_course\Atelier_course\bin\Debug\DocumentFormat.OpenXml.dll
 C:\Users\asus\source\repos\Atelier_course\Atelier_course\bin\Debug\itextsharp.dll
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Worker.CreateModel.resources
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Worker.ModelGenerate.resources
+C:\Users\asus\source\repos\Atelier_course\Atelier_course\obj\Debug\Atelier_course.Worker.CompleteOrder.resources

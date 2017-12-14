@@ -377,9 +377,9 @@ namespace Atelier_course.User
                 ExcelApp.Cells[1, 1] = "ID";
                 ExcelApp.Cells[1, 2] = "Service type";
                 ExcelApp.Cells[1, 3] = "Service name";
-                ExcelApp.Cells[1, 3] = "Order date";
-                ExcelApp.Cells[1, 3] = "Order price";
-                ExcelApp.Cells[1, 3] = "Status name";
+                ExcelApp.Cells[1, 4] = "Order date";
+                ExcelApp.Cells[1, 5] = "Order price";
+                ExcelApp.Cells[1, 6] = "Status name";
 
                 for (int i = 0; i < dataGridView1.ColumnCount; i++)
                 {

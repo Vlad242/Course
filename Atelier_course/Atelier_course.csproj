@@ -75,6 +75,7 @@
     <Compile Include="Login\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mailer\Generator.cs" />
     <Compile Include="Mailer\Mailer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +90,24 @@
     </Compile>
     <Compile Include="User\UserRoom.Designer.cs">
       <DependentUpon>UserRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker\CompleteOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker\CompleteOrder.Designer.cs">
+      <DependentUpon>CompleteOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker\CreateModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker\CreateModel.Designer.cs">
+      <DependentUpon>CreateModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker\ModelGenerate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker\ModelGenerate.Designer.cs">
+      <DependentUpon>ModelGenerate.cs</DependentUpon>
     </Compile>
     <Compile Include="Worker\WorkerRoom.cs">
       <SubType>Form</SubType>
@@ -116,6 +135,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User\UserRoom.resx">
       <DependentUpon>UserRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker\CompleteOrder.resx">
+      <DependentUpon>CompleteOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker\CreateModel.resx">
+      <DependentUpon>CreateModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker\ModelGenerate.resx">
+      <DependentUpon>ModelGenerate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Worker\WorkerRoom.resx">
       <DependentUpon>WorkerRoom.cs</DependentUpon>

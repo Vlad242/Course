@@ -158,11 +158,53 @@ namespace Atelier_course.User
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Order added!Order status - Processing!");
-
+                Send();
                 UserRoom room = new UserRoom(Id);
                 room.Show();
                 conn.Close();
                 this.Dispose();
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        private void Send()
+        {
+            try
+            {
+                //////////////////get_orderID
+                int orderId = 0;
+                MySqlCommand cmd1 = new MySqlCommand
+                {
+                    Connection = conn,
+                    CommandText = string.Format("SELECT MAX(Order_id) FROM Orders;")
+                };
+                MySqlDataReader reader = cmd1.ExecuteReader();
+                while (reader.Read())
+                {
+                    orderId = reader.GetInt32(0);
+                }
+                reader.Close();
+                /////////////////////USer Email
+                string userMail = "";
+                cmd1 = new MySqlCommand
+                {
+                    Connection = conn,
+                    CommandText = string.Format("SELECT Users.Email FROM Orders INNER JOIN Users on(Orders.User_id=Users.User_id) WHERE Orders.Order_id='" + orderId + "';")
+                };
+                reader = cmd1.ExecuteReader();
+                while (reader.Read())
+                {
+                    userMail = reader.GetString(0);
+                }
+                reader.Close();
+
+                Mailer.Generator generator = new Mailer.Generator();
+                string body = generator.GenerateNewOrderBody(orderId, "SunComp");
+                string subject = generator.GenerateSubject("SunComp", orderId);
+                Mailer.Mailer mailer = new Mailer.Mailer();
+                mailer.SendMail(userMail, "example@gmail.com", "", subject, body);
             }
             catch (Exception ex)
             {
