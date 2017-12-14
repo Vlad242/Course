@@ -64,6 +64,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\UserRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserRoom.Designer.cs">
+      <DependentUpon>UserRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Worker\WorkerRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker\WorkerRoom.Designer.cs">
+      <DependentUpon>WorkerRoom.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Login\LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,6 +91,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="User\UserRoom.resx">
+      <DependentUpon>UserRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Worker\WorkerRoom.resx">
+      <DependentUpon>WorkerRoom.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,8 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Mailer\" />
-    <Folder Include="User\" />
-    <Folder Include="Worker\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
